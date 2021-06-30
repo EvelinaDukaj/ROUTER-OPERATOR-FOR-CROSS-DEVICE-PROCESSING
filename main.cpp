@@ -9,7 +9,6 @@
 #include "runtime_layer/tests/tpch_queries/query6.hpp"
 //#include "runtime_layer/tests/tpch_queries/query1.hpp"
 
-// RM includes
 using namespace std;
 #include <array>
 #include <vector>
@@ -20,7 +19,7 @@ using namespace std;
 //#include "opencl_layer/tests/test_openCL_execution.cpp"
 #include "src/include/hashing.hpp"
 int main() {
-// ***** - - - added code by RM - - - ******
+
 
     
     /*MainArray testArray;
@@ -35,7 +34,6 @@ int main() {
     time_t end = clock();
     cout<<" time : "<<(double) end - start<<" ms"<<endl;*/
 
- // ******* End of RM tests *******
 
     /**
      * Simple example for running a single task over OpenCL and a task
